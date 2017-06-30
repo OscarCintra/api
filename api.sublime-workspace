@@ -1,0 +1,406 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"conso",
+				"console.log"
+			],
+			[
+				"Validarn",
+				"ValidarNome"
+			],
+			[
+				"table",
+				"table_body"
+			],
+			[
+				"noti",
+				"noticia"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"re",
+				"res"
+			],
+			[
+				"not",
+				"noticia"
+			],
+			[
+				"ti",
+				"titulo"
+			],
+			[
+				"bo",
+				"body"
+			],
+			[
+				"bod",
+				"bodyParser"
+			],
+			[
+				"body",
+				"body-parser"
+			],
+			[
+				"fun",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/ProjetoTeste/web/package.json",
+			"settings":
+			{
+				"buffer_size": 508,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 548,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 150.0,
+		"last_filter": "instal",
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/ProjetoTeste/api",
+		"/C/ProjetoTeste/web"
+	],
+	"file_history":
+	[
+		"/C/ProjetoTeste/web/app/views/index/padrao.ejs",
+		"/C/ProjetoTeste/api/server.js",
+		"/C/ProjetoTeste/web/app/public/js/script.js",
+		"/C/ProjetoTeste/api/config/sql/clientes.sql",
+		"/C/ProjetoTeste/api/infra/connectionFactory.js",
+		"/C/casadocodigo-master/app/infra/ProdutosDAO.js",
+		"/C/casadocodigo-master/app.js",
+		"/C/ProjetoTeste/api/config/config.js",
+		"/C/casadocodigo-master/config/express.js",
+		"/C/ProjetoTeste/api/package.json",
+		"/C/ProjetoTeste/web/package.json",
+		"/C/ProjetoTeste/api/api.sublime-project",
+		"/C/ProjetoTeste/api/connectionFactory.js",
+		"/C/ProjetoTeste/web/config/server.js",
+		"/C/ProjetoTeste/api/node_modules/express/lib/response.js",
+		"/C/cursonode-js-master/casadocodigo-javascript-master/app/infra/ProdutoDao.js",
+		"/C/ProjetoTeste/api/connection.js",
+		"/C/cliente_web_instagram_cloneIII/app/controllers/index.js",
+		"/C/ProjetoTeste/web/app.js",
+		"/C/ProjetoTeste/web/app/routes/routes.js",
+		"/C/ProjetoTeste/web/app/controllers/index.js",
+		"/C/instagram_clone/cliente_web_instagram_clone/app/controllers/index.js",
+		"/C/ProjetoTeste/web/app/views/errors/500.ejs",
+		"/C/instagram_clone/cliente_web_instagram_clone/app/controllers/home.js",
+		"/C/instagram_clone/cliente_web_instagram_clone/app/routes/routes.js",
+		"/C/payfast/package.json",
+		"/C/ProjetoTeste/api/Server.js",
+		"/C/GitHub/Crud/api/package.json",
+		"/C/GitHub/Crud/web/package.json",
+		"/C/cursonode-js-master/casadocodigo-javascript-master/package.json",
+		"/C/Program Files/Git/ReleaseNotes.html",
+		"/C/curso (1)/bootstrap-form.html",
+		"/C/ProjetoTeste/web/app/public/css/style.css",
+		"/C/ProjetoTeste/web/app/views/home/padrao.ejs",
+		"/C/curso (3)/modelo.html",
+		"/C/curso (3)/modelo2.html",
+		"/C/curso (1)/formulario.html",
+		"/C/curso (1)/modelo.html",
+		"/C/curso (1)/modelo2.html",
+		"/C/curso (2)/modelo.html",
+		"/C/curso (2)/modelo2.html",
+		"/C/instagram_clone/cliente_web_instagram_clone/app/views/index/padrao.ejs",
+		"/C/ProjetoTeste/web/app/controllers/index",
+		"/C/ProjetoTeste/web/app/controllers/home",
+		"/C/cursoapi/Server.js",
+		"/C/cursoapi/Serverjs.txt",
+		"/C/Users/oscar/AppData/Local/Temp/Rar$EX01.203/modelo.html",
+		"/C/Users/oscar/AppData/Local/Temp/Rar$EX00.734/modelo2.html",
+		"/C/cursoapi/package.json",
+		"/C/instagram_clone/api/server.js",
+		"/C/instagram_clone/api/package.json",
+		"/C/instagram_clone/api/uploads/1477505727870_imagem_1.jpg",
+		"/C/instagram_clone/api/uploads/1477505716258_imagem_1.jpg",
+		"/C/instagram_clone/api/uploads/imagem_1.jpg",
+		"/C/CursoNode/noticias.js",
+		"/C/CursoNode/app.js",
+		"/C/CursoNode/views/home/index.ejs",
+		"/C/CursoNode/views/secao/tecnologia.ejs",
+		"/C/Users/oscar/Desktop/Inicio/modelo.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"carrega_postagens",
+			"connection.destroy();",
+			"var connection = connectionFactory();",
+			".end()",
+			"connection.query",
+			"dbConnection",
+			"47274",
+			"27010",
+			"localhost",
+			"local",
+			"col-md-2",
+			"console.log",
+			"8080",
+			"put",
+			"image",
+			"na",
+			"images",
+			"Control",
+			"clientes",
+			"id_noticia",
+			"noticias",
+			"body",
+			"});"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"app.infra.connectionFactory(function(err, connection) {",
+			".destroy()",
+			"connectionFactory",
+			"15878",
+			"47274",
+			"col-md-5",
+			"col-md-1",
+			"3000",
+			"Clientes",
+			"Id_Cliente",
+			"clientes"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/ProjetoTeste/web/package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 508,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								96,
+								96
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 548,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								256,
+								256
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.nodejs":
+	{
+		"height": 94.0
+	},
+	"pinned_build_system": "",
+	"project": "api.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 243.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

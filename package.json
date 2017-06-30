@@ -1,0 +1,27 @@
+{
+  "name": "teste",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Server.js",
+  "engines": {
+    "node": "4.2.1",
+    "npm": "3.10.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Server.js"
+  },
+  "author": "Oscar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "connect-multiparty": "^2.0.0",
+    "express": "^4.15.3",
+    "express-load": "^1.1.16",
+    "multiparty": "^4.1.3",
+    "mysql": "^2.13.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.2"
+  }
+}
