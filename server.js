@@ -1,9 +1,8 @@
-var app = require('./config/config')();
+﻿var app = require('./config/config')();
 
 var porta = process.env.PORT || 3000;
 app.listen(porta);
 console.log("server OK - " + porta);
-
 
 app.get('/api', function(req,res){
     app.infra.connectionFactory(function(err, connection) {
