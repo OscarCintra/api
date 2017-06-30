@@ -69,6 +69,28 @@
 			}
 		},
 		{
+			"contents": "<!DOCTYPE html>\n<html>\n\t<head>\n\t\t<meta charset=\"utf-8\">\n\t\t<title>Projeto Teste</title>\n\t\t<link rel=\"stylesheet\" href=\"css/bootstrap.min.css\">\n\t</head>\n\n\t<body>\n\t\t<div class=\"container\">\n\t\t\t\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t<div class=\"panel panel-success\">\n\t\t\t\t\t  <div class=\"panel-heading\">Projeto Crud</div>\n\t\t\t\t\t  <div class=\"panel-body\">\n\t\t\t\t\t    <p>Cadastro de Clientes</p>\n\t\t\t\t\t  </div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"row\">\n\t\t\t\t\t<div class=\"col-md-2\">\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t    <label for=\"id\">ID *</label>\n\t\t\t\t\t\t    <input type=\"text\" class=\"form-control\" id=\"id_cliente\" placeholder=\"Id do cliente\">\n\t\t\t\t\t  \t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div class=\"col-md-2\">\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t    <label for=\"id\">Nome</label>\n\t\t\t\t\t\t    <input type=\"text\" class=\"form-control\" id=\"nome\" placeholder=\"Nome do cliente\">\n\t\t\t\t\t  \t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div class=\"col-md-2\">\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t    <label for=\"id\">Endereço</label>\n\t\t\t\t\t\t    <input type=\"text\" class=\"form-control\" id=\"endereco\" placeholder=\"Endereço do cliente\">\n\t\t\t\t\t  \t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div class=\"col-md-2\">\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t    <label for=\"id\">Número</label>\n\t\t\t\t\t\t    <input type=\"text\" class=\"form-control\" id=\"numero\" placeholder=\"Número do endereço\">\n\t\t\t\t\t  \t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div class=\"col-md-2\">\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t    <label for=\"id\">Bairro</label>\n\t\t\t\t\t\t    <input type=\"text\" class=\"form-control\" id=\"bairro\" placeholder=\"Bairro do cliente\">\n\t\t\t\t\t  \t</div>\n\t\t\t\t\t</div>\n\n\t\t\t\t\t<div class=\"col-md-2\">\n\t\t\t\t\t\t<div class=\"form-group\">\n\t\t\t\t\t\t    <label for=\"id\">Cidade</label>\n\t\t\t\t\t\t    <input type=\"text\" class=\"form-control\" id=\"cidade\" placeholder=\"Cidade do cliente\">\n\t\t\t\t\t  \t</div>\n\t\t\t\t\t</div>\n\n\t\t\t</div>\n\n\t\t\t<span class=\"label label-default\">* Campos para Localização e Exclusão</span>\n\t\t\t<br><br>\n\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-md-1\">\n\t\t\t\t\t<button class=\"btn btn-success\" id=\"btn-inserir\">Inserir</button>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-1\">\n\t\t\t\t\t<button class=\"btn btn-warning\" id=\"btn-alterar\">Alterar</button>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-1\">\n\t\t\t\t\t<button class=\"btn btn-danger\" id=\"btn-excluir\">Excluir</button>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"col-md-1\">\n\t\t\t\t\t<button class=\"btn btn-success\" id=\"btn-localizar\">Localizar</button>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t\n\t\t\t<br><br>\n\t\t\t\n\t\t\t\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t<div id=\"mensagem\"></div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-md-12\">\n\t\t\t\t\t<table id=\"tabretorno\" class=\"table table-striped table-bordered table-holver\">\n\t\t\t\t\t\t<thead>\n\t\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t\t<td>ID</td>\n\t\t\t\t\t\t\t\t<td>Nome</td>\n\t\t\t\t\t\t\t\t<td>Endereço</td>\n\t\t\t\t\t\t\t\t<td>Numero</td>\n\t\t\t\t\t\t\t\t<td>Bairro</td>\n\t\t\t\t\t\t\t\t<td>Cidade</td>\n\t\t\t\t\t\t\t</tr>\n\t\t\t\t\t\t</thead>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<tbody>\t\t\n\t\t\t\t\t\t</tbody>\n\t\t\t\t\t</table>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t</div>\t\t\n\n\t\t<script type=\"text/javascript\" src=\"js/jquery-3.2.1.min.js\"></script>\n\n\t\t<script type=\"text/javascript\" src=\"js/script.js\"></script>\n\t</body>\n</html>",
+			"file": "/C/ProjetoTeste/web/app/views/index/padrao.ejs",
+			"file_size": 3201,
+			"file_write_time": 131433047064856636,
+			"settings":
+			{
+				"buffer_size": 3072,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "document.getElementById(\"btn-inserir\").onclick = function(){\n\n\tvar nome = document.getElementById(\"nome\").value;\n\tvar endereco = document.getElementById(\"endereco\").value;\n\tvar numero = document.getElementById(\"numero\").value;\n\tvar bairro = document.getElementById(\"bairro\").value;\n\tvar cidade = document.getElementById(\"cidade\").value;\n\n\tif (!ValidarNome(nome)){\n\t\treturn;\n\t}\n\t\n\tvar formData = new FormData();\n\tformData.append(\"nome\", nome);\n\tformData.append(\"endereco\", endereco);\n\tformData.append(\"numero\", numero);\n\tformData.append(\"bairro\", bairro);\n\tformData.append(\"cidade\", cidade);\n\t\n\tvar xhr = new XMLHttpRequest();\n\t\n\t//  xhr.onload \n\txhr.onreadystatechange = function(){\n\t\tif(xhr.readyState == 4){\n\t\t\tvar resposta = xhr.responseText;\n\t\t\tdocument.getElementById('mensagem').innerHTML = resposta;\n\t\t\tLocalizar();\n\t\t}\n\t}\n\n\t\n\txhr.open(\"POST\", \"https://ocapi.herokuapp.com/api\");\n\txhr.send(formData);\t\t\n\t\t\n}\n\n\ndocument.getElementById(\"btn-alterar\").onclick = function(){\n\n\tvar id_cliente = document.getElementById(\"id_cliente\").value;\n\tvar nome = document.getElementById(\"nome\").value;\n\tvar endereco = document.getElementById(\"endereco\").value;\n\tvar numero = document.getElementById(\"numero\").value;\n\tvar bairro = document.getElementById(\"bairro\").value;\n\tvar cidade = document.getElementById(\"cidade\").value;\n\n\tif (!ValidarID(id_cliente)) {\n\t\treturn;\n\t}\n\n\tif (!ValidarNome(nome)){\n\t\treturn;\n\t}\n\n\tvar formData = new FormData();\n\tformData.append(\"nome\", nome);\n\tformData.append(\"endereco\", endereco);\n\tformData.append(\"numero\", numero);\n\tformData.append(\"bairro\", bairro);\n\tformData.append(\"cidade\", cidade);\n\n\tvar xhr = new XMLHttpRequest();\n\n\txhr.onreadystatechange = function(){\n\t\tif(xhr.readyState == 4){\n\t\t\tvar resposta = xhr.responseText;\n\t\t\tdocument.getElementById('mensagem').innerHTML = resposta;\n\t\t\tLocalizar();\n\t\t}\n\t}\n\n\txhr.open(\"PUT\", \"https://ocapi.herokuapp.com/api/\" + id_cliente);\n\txhr.send(formData);\t\t\t\n\t\t\n}\n\n\ndocument.getElementById(\"btn-excluir\").onclick = function(){\n\n\tvar id_cliente = document.getElementById(\"id_cliente\").value;\n\n\tif (!ValidarID(id_cliente)){\n\t\treturn ;\n\t}\n\n\tvar xhr = new XMLHttpRequest();\n\n\txhr.onreadystatechange = function(){\n\t\tif(xhr.readyState == 4){\n\t\t\tvar resposta = xhr.responseText;\n\t\t\tdocument.getElementById('mensagem').innerHTML = resposta;\n\t\t\tdocument.getElementById(\"id_cliente\").value = \"\";\n\t\t\tLocalizar();\n\t\t}\n\t}\n\n\txhr.open(\"DELETE\", \"https://ocapi.herokuapp.com/api/\" + id_cliente);\n\txhr.send();\t\t\t\t\t\n\t\n}\n\n\ndocument.getElementById(\"btn-localizar\").onclick = function(){\t\n\tdocument.getElementById('mensagem').innerHTML=\"\";\n\tLocalizar();\n}\n\nfunction Localizar(){\t\n\n\tvar id_cliente = document.getElementById(\"id_cliente\").value;\n\tvar xhr = new XMLHttpRequest();\n\n\txhr.onreadystatechange = function(){\n\t\tif(xhr.readyState == 4){\n\t\t\tvar resposta = xhr.responseText;\n\n\t\t\tvar table_body = $('#tabretorno tbody');\n\t\t\ttable_body.html('');\n\n\t\t\t$.each(JSON.parse(resposta), function(key, value) {\n\t\t\t\ttable_body.append('<tr>' +\n\t\t\t\t\t'<td class = \"id_cliente\">' + value.Id_Cliente + '</td>' +\n\t\t\t\t\t'<td class = \"nome\">' + value.Nome + '</td>' +\n\t\t\t\t \t'<td class = \"endereco\">' + value.Endereco + '</td>' +\n\t\t\t\t\t'<td class = \"numero\">' + value.Numero + '</td>' +\n\t\t\t\t\t'<td class = \"bairro\">' + value.Bairro + '</td>' +\n\t\t\t\t\t'<td class = \"cidade\">' + value.Cidade + '</td>' +\n\t\t\t\t\t'</tr>');\n\t\t\t});\n\t\t}\n\t}\n\n\txhr.open(\"GET\", \"https://ocapi.herokuapp.com/api/\" + id_cliente);\n\txhr.send();\t\t\n}\n\n\nfunction ValidarID (obj){\n\tif ($.isNumeric(obj)){\t\t\n\t\treturn true;\n\t}\n\telse{\n\t\tdocument.getElementById('mensagem').innerHTML = \"ID inválido!\";\n\t}\n}\n\nfunction ValidarNome (obj){\n\tif (obj.length > 0){\n\t\treturn true;\n\t}\n\telse{\n\t\tdocument.getElementById('mensagem').innerHTML = \"Nome inválido!\";\n\t}\n}\n\n\n$(function(){\n    $(document).on('dblclick', '#tabretorno tbody tr', function(e) {\n        document.getElementById(\"id_cliente\").value = $(this).find('.id_cliente').text();\n        document.getElementById(\"nome\").value = $(this).find('.nome').text();\n        document.getElementById(\"endereco\").value = $(this).find('.endereco').text();\n        document.getElementById(\"numero\").value = $(this).find('.numero').text();\n        document.getElementById(\"bairro\").value = $(this).find('.bairro').text();\n        document.getElementById(\"cidade\").value = $(this).find('.cidade').text();\n    });\n});",
+			"file": "/C/ProjetoTeste/web/app/public/js/script.js",
+			"file_size": 4505,
+			"file_write_time": 131433224811166496,
+			"settings":
+			{
+				"buffer_size": 4336,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "package.json",
 			"settings":
 			{
@@ -119,7 +141,16 @@
 	"expanded_folders":
 	[
 		"/C/ProjetoTeste/api",
-		"/C/ProjetoTeste/web"
+		"/C/ProjetoTeste/web",
+		"/C/ProjetoTeste/web/app",
+		"/C/ProjetoTeste/web/app/controllers",
+		"/C/ProjetoTeste/web/app/public",
+		"/C/ProjetoTeste/web/app/public/js",
+		"/C/ProjetoTeste/web/app/routes",
+		"/C/ProjetoTeste/web/app/views",
+		"/C/ProjetoTeste/web/app/views/index",
+		"/C/ProjetoTeste/web/config",
+		"/C/ProjetoTeste/web/test"
 	],
 	"file_history":
 	[
@@ -199,6 +230,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"repp1",
 			"carrega_postagens",
 			"connection.destroy();",
 			"var connection = connectionFactory();",
@@ -229,6 +261,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"ocapi",
 			"",
 			"app.infra.connectionFactory(function(err, connection) {",
 			".destroy()",
@@ -267,8 +300,8 @@
 						"selection":
 						[
 							[
-								96,
-								96
+								162,
+								142
 							]
 						],
 						"settings":
@@ -281,11 +314,69 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "/C/ProjetoTeste/web/app/views/index/padrao.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3072,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								23,
+								23
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/ProjetoTeste/web/app/public/js/script.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4336,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2369,
+								2369
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1023.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "package.json",
 					"semi_transient": false,
 					"settings":
@@ -297,8 +388,8 @@
 						"selection":
 						[
 							[
-								256,
-								256
+								491,
+								491
 							]
 						],
 						"settings":
@@ -311,7 +402,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
